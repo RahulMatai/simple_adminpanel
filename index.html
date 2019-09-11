@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>veggie_admin</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="assets/css/Analog_Clock.css">
+    <link rel="stylesheet" href="assets/css/dh-navbar-inverse.css">
+    <link rel="stylesheet" href="assets/css/dh-row-text-image-right-responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Profile-Edit-Form.css">
+    <link rel="stylesheet" href="assets/css/Profile-Edit-Form1.css">
+    <link rel="stylesheet" href="assets/css/Responsive-footer.css">
+    <link rel="stylesheet" href="assets/css/Responsive-footer1.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
+	
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
+		<script>
+		 $(document).ready(function(){
+	$('#loginbt').click(function(){
+    un = $('#uname').val();
+	ps=$("#pass").val();
+if(un=="admin" && ps=="admin")
+{
+alert("hello");
+window.location.href="untitled.html";
+}	
+
+  });  
+});
+	
+</script>
+	
+	
+	
+	
+</head>
+
+<body>
+    <div data-aos="fade" data-aos-once="true" class="login-dark">
+        <form method="post" style="background-color:rgb(249,251,248);">
+            <h2 class="sr-only">Login Form</h2>
+            <div class="illustration"><i class="icon ion-ios-locked-outline" data-aos="slide-up" data-aos-duration="50" data-aos-delay="50" style="color:rgb(0,6,14);"></i></div>
+            <div class="form-group"><input class="form-control" type="text"  id="uname" required="" placeholder="Email"  data-bs-hover-animate="pulse" style="background-color:#ffe7e7;color:rgb(13,1,1);"></div>
+            <div class="form-group"><input class="form-control" type="password"  id="pass" required="" placeholder="Password" data-bs-hover-animate="pulse" style="background-color:#ffe7e7;color:rgb(13,1,1);"></div>
+            <div class="form-group"><button class="btn btn-primary btn-block" type="submit" id="loginbt" style="background-color:rgb(41,128,33);">Log In</button></div><a href="#" class="forgot" style="color:rgb(0,0,0);">Forgot your email or password?</a></form>
+    </div>
+	<footer id="footer">
+    
+    <div style= "background: black; text-align: center; margin: 0px; padding:10px">
+        <p style= "color:grey; font-family: raleway">Copyright (c) Veggie</p>
+    </div>
+</footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Analog_Clock.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/Profile-Edit-Form.js"></script>'
+	
+</body>
+
+</html>
